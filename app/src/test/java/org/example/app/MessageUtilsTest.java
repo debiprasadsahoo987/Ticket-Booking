@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MessageUtilsTest {
     @Test void testGetMessage() {
+        Throwable MessageUtils = null;
         assertEquals("Hello      World!", MessageUtils.getMessage());
     }
 }
