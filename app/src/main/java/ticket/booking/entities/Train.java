@@ -11,4 +11,23 @@ public class Train {
     private Map<String, Time> stationTimes;
     private List<String> stations;
 
+    public String getTrainId() {
+        return trainId;
+    }
+
+    public String getTrainNo() {
+        return trainNo;
+    }
+
+    public List<List<Integer>> getSeats() {
+        return seats;
+    }
+
+    public Map<String, Time> getStationTimes() {
+        return stationTimes;
+    }
+
+    public List<String> getStations() {
+        return stations;
+    }
 }

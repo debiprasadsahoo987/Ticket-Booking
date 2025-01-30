@@ -9,4 +9,28 @@ public class Ticket {
     private String destination;
     private Date dateOfTravel;
     private Train train;
+
+    public String getTicketId() {
+        return ticketId;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public String getSource() {
+        return source;
+    }
+
+    public String getDestination() {
+        return destination;
+    }
+
+    public Date getDateOfTravel() {
+        return dateOfTravel;
+    }
+
+    public Train getTrain() {
+        return train;
+    }
 }
